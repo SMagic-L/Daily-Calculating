@@ -1,6 +1,6 @@
 # 笔算天天练
 ### 如你所见，这是廷哥的一波操作
-- 点击 [这里][1]获取你的关键技术
+- 点击 [这里][1] 获取你的关键技术
 
 [1]:https://github.com/SMagic-L/Daily-Calculating-Release/releases/download/1.0/default.apk
 
