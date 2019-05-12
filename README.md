@@ -1,6 +1,8 @@
 # 笔算天天练
 ### 如你所见，这是廷哥的一波操作
-- 复制链接并打开，下载你的关键技术https://github.com/SMagic-L/Daily-Calculating-Release/releases/download/1.0/default.apk
+- 点击 [这里][1]获取你的关键技术
+
+[1]:https://github.com/SMagic-L/Daily-Calculating-Release/releases/download/1.0/default.apk
 
 ### 这是干啥的？
 - 练习运算能力的程序，包括四则运算、椭圆联立圆锥曲线、已知三点求法向量、虚数除法，附带计时功能，未来可能会有更多模式。
