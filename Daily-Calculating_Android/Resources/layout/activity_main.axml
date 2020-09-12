@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:minWidth="25px"
+	android:minHeight="25px">
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/linearLayout1">
+		<RadioGroup
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/radioGroup1">
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:checked="true"
+				android:text="四则运算"
+				android:id="@+id/radioArith" />
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="椭圆联立直线"
+				android:id="@+id/radioEclipse" />
+			<RadioButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="已知三点求法向量"
+				android:id="@+id/radioNormalVector" />
+			<RadioButton
+				android:text="虚数除法"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/radioImaginaryDivide" />
+		</RadioGroup>
+		<TextView
+			android:text="四则运算时，在下方输入算数类型与运算数的位数，用空格分隔，例如：3 3 2表示3位数乘2位数。加法与乘法的两个位数指定操作数的位数，减法与除法的第一个位数指定答案的位数，位数不能超过9。"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:paddingLeft="15px"
+			android:paddingRight="15px"
+			android:id="@+id/textViewArithTip" />
+		<EditText
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/editTextArithArgu" />
+		<Button
+			android:text="显示下一题"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/buttonShowQuestion" />
+		<Button
+			android:text="显示答案"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/buttonShowAnswer" />
+		<TextView
+			android:text="本次用时"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:id="@+id/textViewTime" />
+		<TextView
+			android:text="这里显示问题"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:paddingLeft="15px"
+			android:paddingRight="15px"
+			android:id="@+id/textViewQuestion" />
+		<TextView
+			android:text="这里显示答案"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:paddingLeft="15px"
+			android:paddingRight="15px"
+			android:id="@+id/textViewAnswer" />
+	</LinearLayout>
+		
+	
+</RelativeLayout>
